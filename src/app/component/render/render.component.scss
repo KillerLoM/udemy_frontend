@@ -1,0 +1,40 @@
+.col{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.list-group-item{
+    border: none !important;
+    font-size: 20px;
+    justify-content: flex-start;
+    text-align: flex-start;
+    display: flex;
+}
+.card-title{
+    font-weight: bold;
+    color: red;
+    font-size: 24px;
+}
+.card-text{
+    font-weight: bold;
+    font-style: italic;
+}
+.me-2{
+    color: blue($color: #000000);
+}
+
+.details{
+    flex-grow: 0;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 20px;
+}
+.like{
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+}
+.like:hover{
+    color:white !important;
+}
