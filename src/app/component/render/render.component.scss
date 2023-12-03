@@ -1,3 +1,8 @@
+
+@font-face {
+    font-family: Lobster;
+    src: url('../../../assets/Lobster-Regular.ttf') format('truetype');
+}
 .col{
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -37,4 +42,12 @@
 }
 .like:hover{
     color:white !important;
+}
+.advers{
+    font-family: Lobster;
+    color: #29ef29;
+    gap: 1px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 1.5;
 }
